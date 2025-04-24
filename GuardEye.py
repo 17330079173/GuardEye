@@ -724,8 +724,8 @@ class NiketoScanner:
         """生成报告"""
         try:
             with open('evil.html', 'w') as f:
-                f.write('<html><head><title>EVILGINX扫描报告</title></head><body>')
-                f.write(f'<h1>Niketo扫描报告 - {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</h1>')
+                f.write('<html><head><title>GuardEye扫描报告</title></head><body>')
+                f.write(f'<h1>GuardEye扫描报告 - {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</h1>')
                 f.write(f'<h2>目标URL: {self.base_url}</h2>')
                 
                 if self.vulnerabilities:
@@ -742,7 +742,7 @@ class NiketoScanner:
             print(f"{Colors.FAIL}- {Colors.ENDC}保存报告失败: {e}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Niketo Web Scanner')
+    parser = argparse.ArgumentParser(description='GuardEye Web Scanner')
     parser.add_argument('url', help='Target URL to scan')
     parser.add_argument('-t', '--threads', type=int, default=10, help='Number of threads')
     args = parser.parse_args()
