@@ -38,10 +38,6 @@ guardeye.py “https://your-app.com”
 
 ---
 
-## **📊 Example Output**  
-![Scan Report Preview](https://via.placeholder.com/600x300?text=GuardEye+Report+Demo)  
-
----
 
 ## **🤝 Contribute**  
 We welcome PRs! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.  
