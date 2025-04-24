@@ -6,7 +6,7 @@ Here’s a professional **GitHub README.md** for **GuardEye Vulnerability Scanne
 # GuardEye 🔍  
 **AI-Powered Vulnerability Scanner | Secure the Invisible Threats**  
 
-![GuardEye Logo](https://via.placeholder.com/150x50?text=GuardEye) ![License](https://img.shields.io/badge/license-MIT-blue) ![Python](https://img.shields.io/badge/python-3.8%2B-green)  
+ ![License](https://img.shields.io/badge/license-MIT-blue) ![Python](https://img.shields.io/badge/python-3.8%2B-green)  
 
 GuardEye is an **intelligent, high-performance vulnerability scanner** designed to identify security risks before they become breaches. Combining **AI-driven analysis** with an extensible scanning engine, it detects vulnerabilities, misconfigurations, and exposed secrets across **web apps, APIs, cloud infra, and IoT devices**.  
 
